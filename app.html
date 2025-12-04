@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEETO App | Adventure Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* App-specific styles */
+        .app-container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .app-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .app-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        
+        .app-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .app-main {
+            flex: 1;
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            width: 100%;
+        }
+        
+        .app-grid {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 2rem;
+        }
+        
+        .app-sidebar {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .app-content {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .app-footer {
+            text-align: center;
+            padding: 2rem;
+            background: #f8fafc;
+            border-top: 1px solid #e2e8f0;
+        }
+        
+        @media (max-width: 768px) {
+            .app-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body class="app-container">
+    <header class="app-header">
+        <nav class="app-nav">
+            <div class="app-logo">
+                <span>✈️</span>
+                <span>MEETO</span>
+            </div>
+            <div class="app-actions">
+                <a href="index.html" class="btn btn-outline" style="color: white; border-color: white;">
+                    Back to Website
+                </a>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="app-main">
+        <div class="app-grid">
+            <aside class="app-sidebar">
+                <h2>Quick Actions</h2>
+                <div class="sidebar-actions">
+                    <button class="btn btn-primary" style="width: 100%; margin-bottom: 1rem;">
+                        <i class="fas fa-plus"></i> Plan Adventure
+                    </button>
+                    <button class="btn btn-outline" style="width: 100%; margin-bottom: 1rem;">
+                        <i class="fas fa-search"></i> Find Travelers
+                    </button>
+                    <button class="btn btn-outline" style="width: 100%; margin-bottom: 1rem;">
+                        <i class="fas fa-map-marker-alt"></i> Explore Places
+                    </button>
+                </div>
+                
+                <div class="sidebar-stats">
+                    <h3>Your Stats</h3>
+                    <div class="stat-item">
+                        <span>Adventures Planned</span>
+                        <strong>12</strong>
+                    </div>
+                    <div class="stat-item">
+                        <span>Travel Buddies</span>
+                        <strong>24</strong>
+                    </div>
+                    <div class="stat-item">
+                        <span>Countries Visited</span>
+                        <strong>8</strong>
+                    </div>
+                </div>
+            </aside>
+            
+            <div class="app-content">
+                <h1>Welcome to MEETO Adventure Planner</h1>
+                <p>This is where your amazing app will live. Connect with travelers, plan adventures, and create memories!</p>
+                
+                <div class="demo-cards">
+                    <div class="card">
+                        <h3><i class="fas fa-users"></i> Connect with Travelers</h3>
+                        <p>Find like-minded adventurers in your destination.</p>
+                    </div>
+                    <div class="card">
+                        <h3><i class="fas fa-calendar-alt"></i> Plan Adventures</h3>
+                        <p>Create and collaborate on amazing travel experiences.</p>
+                    </div>
+                    <div class="card">
+                        <h3><i class="fas fa-map-marked-alt"></i> Discover Places</h3>
+                        <p>Find hidden gems and popular spots.</p>
+                    </div>
+                </div>
+                
+                <div class="cta-box">
+                    <h2>Ready to start your adventure?</h2>
+                    <p>Join thousands of travelers creating unforgettable experiences.</p>
+                    <button class="btn btn-primary btn-lg">
+                        <i class="fas fa-rocket"></i> Launch Full App
+                    </button>
+                    <p class="note">
+                        <small>Note: This is a preview. The full app with all features is coming soon!</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="app-footer">
+        <p>MEETO Adventure Planner &copy; 2024 | <a href="index.html">Back to Main Website</a></p>
+    </footer>
+    
+    <script>
+        // Simple app interactions
+        document.querySelectorAll('.btn').forEach(button => {
+            button.addEventListener('click', function() {
+                if (this.textContent.includes('Launch Full App')) {
+                    alert('The full MEETO app with all features would launch here! 🚀\n\nThis includes:\n• Real-time chat\n• AI matching\n• Group planning\n• Location sharing\n• And much more!');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
