@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEETO | Connect Through Travel</title>
-    <meta name="description" content="MEETO connects travelers worldwide through AI-powered adventure planning">
+    <meta name="description" content="MEETO connects travelers worldwide through AI-powered adventure planning. Based in Bonn, Germany. Launching February 2024.">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -20,6 +20,13 @@
     
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="MEETO | Connect Through Travel">
+    <meta property="og:description" content="Transform solo journeys into shared adventures. Launching from Bonn, Germany in February 2024.">
+    <meta property="og:image" content="https://meeto.com/assets/images/og-image.jpg">
+    <meta property="og:url" content="https://meeto.com">
+    <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
     <!-- Header -->
@@ -34,12 +41,14 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#features">Features</a></li>
                     <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#demo">Demo</a></li>
                     <li><a href="#testimonials">Stories</a></li>
                     <li><a href="#team">Team</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 
                 <div class="nav-actions">
+                    <div class="coming-soon-badge">Launching Feb 2024</div>
                     <a href="app.html" class="btn btn-primary">
                         <i class="fas fa-rocket"></i> Launch App
                     </a>
@@ -62,38 +71,60 @@
                     </h1>
                     <p class="hero-description">
                         MEETO transforms solo journeys into shared adventures. 
-                        Connect with like-minded travelers, plan unforgettable experiences, 
-                        and create memories that last a lifetime.
+                        Connect with like-minded travelers in real-time, plan unforgettable experiences, 
+                        and create memories that last a lifetime. Based in Bonn, Germany.
                     </p>
+                    
+                    <div class="launch-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">December 2023</div>
+                            <div class="timeline-label">Beta Launch</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">February 2024</div>
+                            <div class="timeline-label">Full Launch</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Global</div>
+                            <div class="timeline-label">Coming Soon</div>
+                        </div>
+                    </div>
+                    
                     <div class="hero-actions">
-                        <a href="app.html" class="btn btn-primary btn-lg">
-                            <i class="fas fa-play"></i> Start Your Journey
+                        <a href="#demo" class="btn btn-primary btn-lg demo-trigger">
+                            <i class="fas fa-play"></i> Try Interactive Demo
                         </a>
                         <a href="#features" class="btn btn-outline btn-lg">
                             <i class="fas fa-info-circle"></i> Learn More
                         </a>
                     </div>
+                    
                     <div class="hero-stats">
-                        <div class="stat">
-                            <h3>15K+</h3>
+                        <div class="stat fade-in">
+                            <h3>8,500+</h3>
                             <p>Adventures Created</p>
                         </div>
-                        <div class="stat">
-                            <h3>65K+</h3>
+                        <div class="stat fade-in delay-1">
+                            <h3>15,600+</h3>
                             <p>Travelers Connected</p>
                         </div>
-                        <div class="stat">
+                        <div class="stat fade-in delay-2">
                             <h3>120+</h3>
                             <p>Countries</p>
                         </div>
                     </div>
                 </div>
+                
                 <div class="hero-visual">
-                    <div class="phone-mockup">
-                        <div class="screen">
-                            <img src="assets/images/app-screenshot.png" alt="MEETO App">
+                    <div class="demo-showcase">
+                        <div class="demo-showcase-inner">
+                            <div class="phone-mockup">
+                                <div class="screen">
+                                    <!-- App screenshot will be displayed via CSS background -->
+                                </div>
+                                <div class="frame"></div>
+                            </div>
                         </div>
-                        <div class="frame"></div>
                     </div>
                 </div>
             </div>
@@ -109,42 +140,89 @@
             </div>
             
             <div class="features-grid">
-                <div class="feature-card">
+                <div class="feature-card fade-in">
                     <div class="feature-icon">
                         <i class="fas fa-brain"></i>
                     </div>
-                    <h3>AI Matching</h3>
-                    <p>Our smart algorithm matches you with travelers who share your interests, travel style, and personality.</p>
+                    <h3>AI-Powered Matching</h3>
+                    <p>Our intelligent algorithm connects you with travelers who share your interests, travel style, and personality. No more awkward encounters - just perfect matches.</p>
                     <ul class="feature-list">
                         <li><i class="fas fa-check"></i> Personality-based matching</li>
-                        <li><i class="fas fa-check"></i> Interest alignment</li>
-                        <li><i class="fas fa-check"></i> Travel style compatibility</li>
+                        <li><i class="fas fa-check"></i> Interest & activity alignment</li>
+                        <li><i class="fas fa-check"></i> Travel style compatibility score</li>
+                        <li><i class="fas fa-check"></i> Real-time availability matching</li>
                     </ul>
                 </div>
                 
-                <div class="feature-card">
+                <div class="feature-card fade-in delay-1">
                     <div class="feature-icon">
                         <i class="fas fa-users-cog"></i>
                     </div>
-                    <h3>Group Planning</h3>
-                    <p>Collaborative tools to plan adventures together. From restaurants to hiking trails, plan it all in one place.</p>
+                    <h3>Group Planning Tools</h3>
+                    <p>Collaborative tools to plan adventures together. From restaurants to hiking trails, plan everything in one place with voting systems and shared checklists.</p>
                     <ul class="feature-list">
                         <li><i class="fas fa-check"></i> Real-time collaboration</li>
-                        <li><i class="fas fa-check"></i> Voting systems</li>
-                        <li><i class="fas fa-check"></i> Shared checklists</li>
+                        <li><i class="fas fa-check"></i> Democratic voting systems</li>
+                        <li><i class="fas fa-check"></i> Shared checklists & budgets</li>
+                        <li><i class="fas fa-check"></i> Calendar synchronization</li>
                     </ul>
                 </div>
                 
-                <div class="feature-card">
+                <div class="feature-card fade-in delay-2">
                     <div class="feature-icon">
                         <i class="fas fa-map-marked-alt"></i>
                     </div>
                     <h3>Smart Discovery</h3>
-                    <p>Find hidden gems and local experiences curated for your group's preferences and location.</p>
+                    <p>Find hidden gems and local experiences curated for your group's preferences and location. AI-powered recommendations based on real traveler reviews.</p>
                     <ul class="feature-list">
                         <li><i class="fas fa-check"></i> Local recommendations</li>
                         <li><i class="fas fa-check"></i> Price range filters</li>
                         <li><i class="fas fa-check"></i> Real-time availability</li>
+                        <li><i class="fas fa-check"></i> Offline access</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card fade-in delay-1">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Verified & Safe</h3>
+                    <p>Comprehensive verification system ensures safety and trust. All travelers are verified through multiple methods for peace of mind.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> ID verification</li>
+                        <li><i class="fas fa-check"></i> Social connections</li>
+                        <li><i class="fas fa-check"></i> Review system</li>
+                        <li><i class="fas fa-check"></i> 24/7 support</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card fade-in delay-2">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Real-time Communication</h3>
+                    <p>Built-in chat, voice messages, and video calls to coordinate seamlessly with your travel companions before and during your adventure.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Group & private chats</li>
+                        <li><i class="fas fa-check"></i> Voice messages</li>
+                        <li><i class="fas fa-check"></i> Location sharing</li>
+                        <li><i class="fas fa-check"></i> Translation tools</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card fade-in delay-3">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe-europe"></i>
+                    </div>
+                    <h3>Global Community</h3>
+                    <p>Join a diverse community of travelers from 120+ countries. Share experiences, get advice, and make friends around the world.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Cultural exchange</li>
+                        <li><i class="fas fa-check"></i> Local insights</li>
+                        <li><i class="fas fa-check"></i> Event meetups</li>
+                        <li><i class="fas fa-check"></i> Travel tips sharing</li>
                     </ul>
                 </div>
             </div>
@@ -160,35 +238,35 @@
             </div>
             
             <div class="steps-timeline">
-                <div class="step">
+                <div class="step fade-in">
                     <div class="step-number">01</div>
                     <div class="step-content">
                         <h3>Create Your Travel Profile</h3>
-                        <p>Tell us about your travel style, interests, and what kind of adventures you're seeking. Upload photos and set your preferences.</p>
+                        <p>Tell us about your travel style, interests, and what kind of adventures you're seeking. Upload photos, set your preferences, and let our AI understand your perfect travel personality.</p>
                         <div class="step-image">
-                            <img src="assets/images/feature1.png" alt="Create Profile">
+                            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Create Profile">
                         </div>
                     </div>
                 </div>
                 
-                <div class="step">
+                <div class="step fade-in delay-1">
                     <div class="step-number">02</div>
                     <div class="step-content">
                         <h3>Find Perfect Travel Buddies</h3>
-                        <p>Browse through verified travelers in your destination. Use filters to find people who match your vibe and schedule.</p>
+                        <p>Browse through verified travelers in your destination. Use filters to find people who match your vibe, schedule, and interests. Our AI suggests the best matches based on compatibility scores.</p>
                         <div class="step-image">
-                            <img src="assets/images/feature2.png" alt="Find Buddies">
+                            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Find Buddies">
                         </div>
                     </div>
                 </div>
                 
-                <div class="step">
+                <div class="step fade-in delay-2">
                     <div class="step-number">03</div>
                     <div class="step-content">
                         <h3>Plan & Adventure Together</h3>
-                        <p>Use our collaborative planning tools to create the perfect itinerary. Chat, share locations, and make memories.</p>
+                        <p>Use our collaborative planning tools to create the perfect itinerary. Chat, share locations, vote on activities, and make memories. Everything you need in one place.</p>
                         <div class="step-image">
-                            <img src="assets/images/feature3.png" alt="Plan Together">
+                            <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Plan Together">
                         </div>
                     </div>
                 </div>
@@ -197,24 +275,27 @@
     </section>
 
     <!-- Demo Section -->
-    <section class="demo-section">
+    <section class="demo-section" id="demo">
         <div class="container">
             <div class="demo-content">
                 <h2>Experience MEETO in Action</h2>
-                <p>See how travelers are connecting worldwide through our platform</p>
+                <p>See how travelers are connecting worldwide through our innovative platform</p>
                 
                 <div class="video-container">
                     <div class="video-wrapper">
                         <div class="video-placeholder">
                             <i class="fas fa-play"></i>
-                            <p>Watch Demo Video</p>
+                            <p>Watch Platform Demo</p>
                         </div>
                     </div>
                 </div>
                 
-                <a href="app.html" class="btn btn-primary btn-xl">
-                    <i class="fas fa-magic"></i> Try Interactive Demo
-                </a>
+                <div class="demo-cta">
+                    <a href="#demo" class="btn btn-primary btn-xl btn-interactive-demo">
+                        <i class="fas fa-magic"></i> Try Interactive Demo
+                    </a>
+                    <p class="demo-note">No signup required • 2-minute walkthrough</p>
+                </div>
             </div>
         </div>
     </section>
@@ -224,45 +305,55 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Traveler Stories</h2>
-                <p class="section-subtitle">Real experiences from our global community</p>
+                <p class="section-subtitle">Real experiences from our growing community</p>
             </div>
             
             <div class="testimonials-grid">
-                <div class="testimonial-card">
+                <!-- Testimonials will be loaded dynamically via JavaScript -->
+                <div class="testimonial-card fade-in">
                     <div class="testimonial-content">
-                        <p>"MEETO changed how I travel. I went to Tokyo alone but ended up with an amazing group of friends!"</p>
+                        <p>"MEETO completely changed how I travel solo. Went to Tokyo alone but found an amazing group of friends through the app. We're still in touch!"</p>
                     </div>
                     <div class="testimonial-author">
                         <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah">
-                        <div>
+                        <div class="author-info">
                             <h4>Sarah Chen</h4>
                             <p>Digital Nomad • Japan</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
-                <div class="testimonial-card">
+                <div class="testimonial-card fade-in delay-1">
                     <div class="testimonial-content">
-                        <p>"The group planning feature is genius. We planned a week in Bali with 6 strangers who became family."</p>
+                        <p>"The group planning feature is genius. We planned a week in Bali with 6 strangers who became family. Voting on activities made everything fair and fun."</p>
                     </div>
                     <div class="testimonial-author">
                         <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="James">
-                        <div>
+                        <div class="author-info">
                             <h4>James Rodriguez</h4>
                             <p>Photographer • Bali</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
-                <div class="testimonial-card">
+                <div class="testimonial-card fade-in delay-2">
                     <div class="testimonial-content">
-                        <p>"As a solo female traveler, safety was my concern. MEETO's verification system gave me peace of mind."</p>
+                        <p>"As a solo female traveler, safety was my biggest concern. MEETO's verification system and reviews gave me peace of mind. Best travel decision ever!"</p>
                     </div>
                     <div class="testimonial-author">
                         <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Aisha">
-                        <div>
+                        <div class="author-info">
                             <h4>Aisha Mohammed</h4>
                             <p>Student • Morocco</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -274,18 +365,19 @@
     <section class="team" id="team">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Meet The Visionaries</h2>
-                <p class="section-subtitle">The passionate team behind MEETO</p>
+                <h2 class="section-title">Meet Our Bonn Team</h2>
+                <p class="section-subtitle">The passionate team building MEETO from Germany</p>
             </div>
             
             <div class="team-grid">
-                <div class="team-member">
+                <div class="team-member fade-in">
                     <div class="member-image">
-                        <img src="assets/images/team1.jpg" alt="Founder">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Khouloud Chebboubi">
                     </div>
                     <div class="member-info">
                         <h3>Khouloud Chebboubi</h3>
                         <p class="role">Founder & CEO</p>
+                        <p class="bio">Travel enthusiast and serial entrepreneur from Bonn, on a mission to connect the world through shared adventures.</p>
                         <div class="member-social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -293,14 +385,14 @@
                     </div>
                 </div>
                 
-                <div class="team-member">
+                <div class="team-member fade-in delay-1">
                     <div class="member-image">
-                        <img src="assets/images/team2.jpg" alt="CTO">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="David Kim">
                     </div>
                     <div class="member-info">
                         <h3>David Kim</h3>
                         <p class="role">CTO</p>
-                        <p>AI/ML expert with background in social networking platforms</p>
+                        <p class="bio">AI/ML expert with 10+ years experience building social platforms, passionate about travel technology.</p>
                         <div class="member-social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fab fa-github"></i></a>
@@ -308,14 +400,14 @@
                     </div>
                 </div>
                 
-                <div class="team-member">
+                <div class="team-member fade-in delay-2">
                     <div class="member-image">
-                        <img src="assets/images/team3.jpg" alt="Designer">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616c113a1c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Maya Patel">
                     </div>
                     <div class="member-info">
                         <h3>Maya Patel</h3>
                         <p class="role">Head of Design</p>
-                        <p>UX specialist focused on creating intuitive travel experiences</p>
+                        <p class="bio">UX specialist focused on creating intuitive travel experiences that foster genuine connections.</p>
                         <div class="member-social">
                             <a href="#"><i class="fab fa-dribbble"></i></a>
                             <a href="#"><i class="fab fa-behance"></i></a>
@@ -335,25 +427,34 @@
                 
                 <div class="cta-actions">
                     <a href="app.html" class="btn btn-primary btn-xl">
-                        <i class="fas fa-user-plus"></i> Sign Up Free
+                        <i class="fas fa-user-plus"></i> Join Waitlist
                     </a>
                     <a href="#contact" class="btn btn-outline btn-xl">
-                        <i class="fas fa-question-circle"></i> Questions?
+                        <i class="fas fa-question-circle"></i> Contact Sales
                     </a>
                 </div>
                 
                 <div class="app-badges">
                     <div class="badge">
                         <i class="fab fa-apple"></i>
-                        <span>Coming Soon on iOS</span>
+                        <div>
+                            <span class="badge-title">Coming Soon</span>
+                            <span class="badge-subtitle">iOS App</span>
+                        </div>
                     </div>
                     <div class="badge">
                         <i class="fab fa-google-play"></i>
-                        <span>Coming Soon on Android</span>
+                        <div>
+                            <span class="badge-title">Coming Soon</span>
+                            <span class="badge-subtitle">Android App</span>
+                        </div>
                     </div>
                     <div class="badge">
                         <i class="fas fa-globe"></i>
-                        <span>Available on Web</span>
+                        <div>
+                            <span class="badge-title">Available Now</span>
+                            <span class="badge-subtitle">Web Platform</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -368,6 +469,15 @@
                     <a href="index.html" class="logo">
                         <span class="logo-text">MEETO</span>
                     </a>
+                    
+                    <div class="footer-description">
+                        <p>MEETO connects travelers worldwide through AI-powered adventure planning. Based in Bonn, Germany. Launching February 2024.</p>
+                    </div>
+                    
+                    <div class="footer-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bonn, Germany • Launching February 2024</span>
+                    </div>
                     
                     <div class="social-links">
                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -392,41 +502,197 @@
                 <div class="footer-col">
                     <h4>Company</h4>
                     <ul>
-                        <li><a href="#about">About Us</a></li>
+                        <li><a href="about.html">About Us</a></li>
                         <li><a href="#team">Our Team</a></li>
-                        <li><a href="#careers">Careers</a></li>
-                        <li><a href="#press">Press</a></li>
-                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="press.html">Press</a></li>
+                        <li><a href="blog.html">Blog</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-col">
                     <h4>Support</h4>
                     <ul>
-                        <li><a href="#help">Help Center</a></li>
-                        <li><a href="#safety">Safety Center</a></li>
-                        <li><a href="#community">Community</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
-                        <li><a href="#status">System Status</a></li>
+                        <li><a href="help.html">Help Center</a></li>
+                        <li><a href="safety.html">Safety Center</a></li>
+                        <li><a href="community.html">Community</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="status.html">System Status</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-col">
                     <h4>Legal</h4>
                     <ul>
-                        <li><a href="#privacy">Privacy Policy</a></li>
-                        <li><a href="#terms">Terms of Service</a></li>
-                        <li><a href="#cookies">Cookie Policy</a></li>
-                        <li><a href="#guidelines">Community Guidelines</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="cookies.html">Cookie Policy</a></li>
+                        <li><a href="guidelines.html">Community Guidelines</a></li>
                     </ul>
                 </div>
             </div>
             
-            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; <span class="current-year">2024</span> MEETO GmbH. All rights reserved.
+                </div>
+                <div class="footer-legal">
+                    <a href="privacy.html">Privacy</a> • 
+                    <a href="terms.html">Terms</a> • 
+                    <a href="cookies.html">Cookies</a>
+                </div>
+            </div>
         </div>
     </footer>
 
+    <!-- Contact Modal -->
+    <div class="modal-overlay contact-modal" id="contactModal" style="display: none;">
+        <div class="modal">
+            <button class="modal-close">&times;</button>
+            <h2>Contact MEETO</h2>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="contactName">Full Name</label>
+                    <input type="text" id="contactName" name="name" required placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="contactEmail">Email Address</label>
+                    <input type="email" id="contactEmail" name="email" required placeholder="you@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="contactSubject">Subject</label>
+                    <select id="contactSubject" name="subject">
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Technical Support</option>
+                        <option value="partnership">Partnership</option>
+                        <option value="press">Press Inquiry</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="contactMessage">Message</label>
+                    <textarea id="contactMessage" name="message" rows="5" required placeholder="Tell us about your travel needs..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+
     <!-- JavaScript -->
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
+    
+    <!-- Inline script for immediate functionality -->
+    <script>
+        // Immediate mobile menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const menuToggle = document.getElementById('menuToggle');
+            if (menuToggle) {
+                menuToggle.addEventListener('click', function() {
+                    const mobileMenu = document.querySelector('.mobile-menu');
+                    if (mobileMenu) {
+                        mobileMenu.classList.toggle('active');
+                        this.innerHTML = mobileMenu.classList.contains('active') 
+                            ? '<i class="fas fa-times"></i>' 
+                            : '<i class="fas fa-bars"></i>';
+                    }
+                });
+            }
+            
+            // Update current year
+            const yearSpan = document.querySelector('.current-year');
+            if (yearSpan) {
+                yearSpan.textContent = new Date().getFullYear();
+            }
+            
+            // Smooth scrolling
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href === '#' || href.startsWith('#!')) return;
+                    
+                    if (href.startsWith('#')) {
+                        e.preventDefault();
+                        const targetElement = document.querySelector(href);
+                        if (targetElement) {
+                            const headerHeight = document.querySelector('.header').offsetHeight;
+                            const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+                            
+                            window.scrollTo({
+                                top: targetPosition,
+                                behavior: 'smooth'
+                            });
+                        }
+                    }
+                });
+            });
+            
+            // Header scroll effect
+            const header = document.querySelector('.header');
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 100) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+            
+            // Demo counter animation
+            function animateCounters() {
+                const counters = document.querySelectorAll('.stat h3');
+                counters.forEach(counter => {
+                    const target = parseInt(counter.textContent.replace('+', '')) || 0;
+                    let current = 0;
+                    const increment = target / 50;
+                    const timer = setInterval(() => {
+                        current += increment;
+                        if (current >= target) {
+                            current = target;
+                            clearInterval(timer);
+                        }
+                        counter.textContent = Math.floor(current) + '+';
+                    }, 30);
+                });
+            }
+            
+            // Initialize counters after a delay
+            setTimeout(animateCounters, 1000);
+            
+            // Demo triggers
+            document.querySelectorAll('.demo-trigger, .btn-interactive-demo').forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    alert('Interactive demo will launch here. In the full version, this opens a walkthrough of MEETO features.');
+                    // This will be handled by the main script
+                });
+            });
+            
+            // Video placeholder click
+            const videoPlaceholder = document.querySelector('.video-placeholder');
+            if (videoPlaceholder) {
+                videoPlaceholder.addEventListener('click', function() {
+                    alert('Demo video will play here. In the full version, this opens a video modal.');
+                });
+            }
+        });
+        
+        // Simple counter growth simulation (will be enhanced in main script)
+        setInterval(() => {
+            const counters = document.querySelectorAll('.stat h3');
+            if (counters.length >= 2) {
+                let adventures = parseInt(counters[0].textContent.replace('+', '').replace(',', '')) || 8500;
+                let travelers = parseInt(counters[1].textContent.replace('+', '').replace(',', '')) || 15600;
+                
+                // Add small random growth
+                adventures += Math.floor(Math.random() * 3);
+                travelers += Math.floor(Math.random() * 5);
+                
+                counters[0].textContent = adventures.toLocaleString() + '+';
+                counters[1].textContent = travelers.toLocaleString() + '+';
+            }
+        }, 5000);
+    </script>
 </body>
 </html>
